@@ -2,7 +2,6 @@
 #define MAX_SIZE 10
 int Stack[MAX_SIZE],top = -1;
 
-//this is push funtion for stack
 void Push(){
     if(top==MAX_SIZE-1){
         printf("\nStack overflow.");
