@@ -32,7 +32,7 @@ void removeAt(List *list, int index)
 {
     if (index >= 0 && index < list->size)
     {
-        for (int i = index; i < list->size - 1; i++)
+        for (int i = index; i < list->size ; i++)
         {
             list->data[i] = list->data[i + 1];
         }
